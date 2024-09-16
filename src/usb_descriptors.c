@@ -164,10 +164,10 @@ uint8_t const *tud_descriptor_configuration_cb(uint8_t index)
 char const *string_desc_arr[] = {
     (const char[]){0x09, 0x04}, // 0: is supported language is English (0x0409)
     "SpeedyAmeto",              // 1: Manufacturer
-    "Arcade P1",                // 2: Product
-    // "Arcade P2", // 2: Product
-    "573572", // 3: Serials, should use chip ID
-    // "573573", // 3: Serials, should use chip ID
+    // "Arcade P1",                // 2: Product
+    "Arcade P2", // 2: Product
+    // "573572", // 3: Serials, should use chip ID
+    "573573", // 3: Serials, should use chip ID
     "Button 1",
     "Button 2",
     "Button 3",
